@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>多益金榜單字 (VocabGold) - 隱私權政策與服務條款</title>
+  <meta name="description" content="《多益金榜單字 VocabGold》官方隱私權政策與終端使用者服務條款 (EULA)。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #121216;
+      --card-bg: #1C1C24;
+      --card-border: #2E2E38;
+      --primary-gold: #FFD700;
+      --gold-gradient: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+      --text-main: #F4F4F6;
+      --text-secondary: #9E9EAF;
+      --accent-color: #6C5CE7;
+      --font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-family);
+      line-height: 1.75;
+      padding-bottom: 60px;
+    }
+
+    header {
+      background: rgba(18, 18, 22, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--card-border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: var(--gold-gradient);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 4px 12px rgba(255, 215, 0, 0.25);
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+
+    .brand-subtitle {
+      font-size: 0.78rem;
+      color: var(--primary-gold);
+      font-weight: 600;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--text-secondary);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--primary-gold);
+      color: #fff;
+    }
+
+    .tab-btn.active {
+      background: var(--primary-gold);
+      color: #000;
+      border-color: var(--primary-gold);
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 36px auto;
+      padding: 0 20px;
+    }
+
+    .hero-banner {
+      background: linear-gradient(145deg, #1C1C24 0%, #15151C 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      margin-bottom: 30px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-banner::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,215,0,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-title {
+      font-size: 1.85rem;
+      font-weight: 900;
+      margin-bottom: 8px;
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    .content-section {
+      display: none;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 40px 32px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 28px 0 12px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary-gold);
+      margin: 18px 0 8px 0;
+    }
+
+    p, ul, ol {
+      color: rgba(244, 244, 246, 0.88);
+      font-size: 0.96rem;
+      margin-bottom: 14px;
+    }
+
+    ul, ol {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      color: #fff;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      background: rgba(255, 215, 0, 0.15);
+      color: var(--primary-gold);
+      border: 1px solid rgba(255, 215, 0, 0.3);
+      margin-bottom: 16px;
+    }
+
+    .alert-box {
+      background: rgba(108, 92, 231, 0.1);
+      border: 1px solid rgba(108, 92, 231, 0.3);
+      border-radius: 10px;
+      padding: 16px;
+      margin: 16px 0;
+    }
+
+    .alert-box.gold {
+      background: rgba(255, 215, 0, 0.06);
+      border-color: rgba(255, 215, 0, 0.25);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 14px;
+        align-items: flex-start;
+      }
+      .content-section {
+        padding: 24px 18px;
+      }
+      .hero-title {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-icon">🎓</div>
+      <div>
+        <div class="brand-title">多益金榜單字 (VocabGold)</div>
+        <div class="brand-subtitle">990 聽力刷題速成・專業英語檢定輔助工具</div>
+      </div>
+    </div>
+    <div class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('privacy')">隱私權政策</button>
+      <button class="tab-btn" onclick="switchTab('terms')">服務條款 (EULA)</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="hero-banner">
+      <span class="badge">Apple App Store 官方規範合規文檔</span>
+      <h1 class="hero-title" id="banner-title">多益金榜單字 隱私權政策</h1>
+      <p class="hero-desc" id="banner-desc">我們秉持用戶隱私優先原則，學習進度數據全本地安全儲存，金流均由 Apple StoreKit 官方加密處理。</p>
+    </div>
+
+    <!-- 隱私權政策 -->
+    <section id="privacy-section" class="content-section active">
+      <div class="badge">生效日期：2026 年 9 月 21 日</div>
+      
+      <h2>1. 我們蒐集的資訊與用途</h2>
+      <p>本應用程式以「隱私優先」為核心設計，最大程度保護使用者的個人隱私：</p>
+      
+      <h3>(1) 本機端學習數據（絕不外傳）</h3>
+      <ul>
+        <li><strong>數據類型</strong>：單字熟稔度標記、翻卡速刷歷程、錯題救急本收藏、每日聽力額度與收藏文章、三國發音偏好設定。</li>
+        <li><strong>儲存方式</strong>：全數儲存於使用者 iPhone / iPad 本機沙盒目錄（SQLite 資料庫與 SharedPreferences）。</li>
+        <li><strong>用途</strong>：提供個人化複習頻率與間隔記憶演算法，不會傳輸至任何雲端伺服器。</li>
+      </ul>
+
+      <h3>(2) 第三方廣告服務（Google AdMob）</h3>
+      <p>為維護基礎免費字庫與聽力教材營運，本應用程式接入 Google Mobile Ads SDK：</p>
+      <ul>
+        <li><strong>蒐集資訊</strong>：裝置識別碼、廣告點擊與曝光交互統計、粗略地理位置（國家級）。</li>
+        <li><strong>iOS 追蹤透明度 (ATT)</strong>：在 iOS 14.5 及後續版本中，僅在獲得使用者主動授權下才會讀取 IDFA。若使用者拒絕授權，僅展示非關聯式通用廣告。</li>
+        <li>詳情請參閱 <a href="https://policies.google.com/technologies/ads" target="_blank" style="color: var(--primary-gold);">Google 隱私權與條款</a>。</li>
+      </ul>
+
+      <h3>(3) 應用程式內購買 (In-App Purchase)</h3>
+      <p>所有付費項目（組合包、金榜詞庫、口音聽力包、永久去廣告）均由 <strong>Apple App Store (StoreKit)</strong> 官方管道扣款。我們絕不經手、亦無法接觸您的信用卡或銀行個人資料。</p>
+
+      <h2>2. 廣告追蹤與隱私控制</h2>
+      <div class="alert-box gold">
+        <strong>自主控制權利：</strong>
+        您隨時可至 iOS 裝置「設定」>「隱私權與安全性」>「追蹤」，自由開啟或關閉本 App 的追蹤授權。亦可在 App 內購買「永久無廣告」方案徹底關閉所有廣告請求。
+      </div>
+
+      <h2>3. 兒童隱私保護</h2>
+      <p>本應用程式為一般英語學習工具，不以 13 歲以下兒童為特定對象，亦不蓄意蒐集任何兒童個人識別資訊。</p>
+
+      <h2>4. 聯絡方式</h2>
+      <p>若對本隱私政策有任何疑問，歡迎聯絡：<strong>support@vocabgold.com</strong></p>
+    </section>
+
+    <!-- 服務條款 -->
+    <section id="terms-section" class="content-section">
+      <div class="badge">生效日期：2026 年 9 月 21 日</div>
+
+      <h2>1. 授權與使用條款 (License)</h2>
+      <p>我們授予您個人的、非專屬的、不可轉讓的有限授權，供您在相容的 Apple 裝置上下載並使用《多益金榜單字 (VocabGold)》，僅限非商業性質之個人備考使用。</p>
+
+      <h2>2. 內購商品與「回復購買」保證 (In-App Purchases)</h2>
+      <div class="alert-box gold">
+        <strong>一次性買斷・非訂閱制：</strong>
+        本 App 內所有付費項目均為一次性買斷（Non-Consumable），無任何自動續約扣款或訂閱陷阱。
+      </div>
+      <h3>(1) 回復購買 (Restore Purchases)</h3>
+      <p>依據 Apple 規範，若您更換 iPhone/iPad 裝置、重置系統或重新安裝 App，您可隨時在商店或設定頁點擊「<strong>回復購買</strong>」按鈕。系統將自動向 Apple 驗證您的 Apple ID 歷史購買紀錄，立即免費恢復所有權益。</p>
+
+      <h3>(2) 退款途徑</h3>
+      <p>所有交易由 Apple App Store 結算，退款申請請透過 Apple 官方退款入口辦理：<a href="https://reportaproblem.apple.com" target="_blank" style="color: var(--primary-gold);">reportaproblem.apple.com</a>。</p>
+
+      <h2>3. 智慧財產權</h2>
+      <p>本軟體之字庫、音標對照、例句釋義、情境長文文本及美術設計資產均屬原創或合法授權。「TOEIC®」為 Educational Testing Service (ETS) 註冊商標，本應用程式為第三方自主學習工具，未受 ETS 贊助或背書。</p>
+
+      <h2>4. 免責聲明與管轄法院</h2>
+      <p>本軟體以「現狀」提供，不保證特定應試分數。本條款以中華民國法律為準據法，如有爭議合意以臺灣臺北地方法院為第一審管轄法院。</p>
+
+      <h2>5. 聯絡方式</h2>
+      <p>客服信箱：<strong>support@vocabgold.com</strong></p>
+    </section>
+
+    <footer>
+      <p>© 2026 VocabGold 多益金榜單字. All Rights Reserved. Compliant with Apple App Store Guidelines.</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchTab(tab) {
+      const privacySec = document.getElementById('privacy-section');
+      const termsSec = document.getElementById('terms-section');
+      const bannerTitle = document.getElementById('banner-title');
+      const bannerDesc = document.getElementById('banner-desc');
+      const tabs = document.querySelectorAll('.tab-btn');
+
+      if (tab === 'privacy') {
+        privacySec.classList.add('active');
+        termsSec.classList.remove('active');
+        tabs[0].classList.add('active');
+        tabs[1].classList.remove('active');
+        bannerTitle.innerText = '多益金榜單字 隱私權政策';
+        bannerDesc.innerText = '我們秉持用戶隱私優先原則，學習進度數據全本地安全儲存，金流均由 Apple StoreKit 官方加密處理。';
+        window.location.hash = 'privacy';
+      } else {
+        privacySec.classList.remove('active');
+        termsSec.classList.add('active');
+        tabs[0].classList.remove('active');
+        tabs[1].classList.add('active');
+        bannerTitle.innerText = '多益金榜單字 服務條款 (EULA)';
+        bannerDesc.innerText = '一次性永久買斷・終生享有・支援 Apple ID 一鍵回復購買，透明無陷阱。';
+        window.location.hash = 'terms';
+      }
+    }
+
+    // Auto-detect hash
+    if (window.location.hash === '#terms') {
+      switchTab('terms');
+    }
+  </script>
+</body>
+</html>
