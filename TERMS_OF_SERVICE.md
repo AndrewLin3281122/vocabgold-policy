@@ -73,5 +73,5 @@
 
 若您對本服務條款有任何疑問，請透過以下信箱與我們聯繫：
 
-- **電子郵件**：support@vocabgold.com
-- **支援網址**：https://github.com/vocabgold/vocabgold
+- **線上客服與意見反饋表單**：[點此前往 Google 支援表單](https://forms.gle/f5dMUjLCLQoyg8XR8)
+- **官方支援網址**：https://andrewlin3281122.github.io/vocabgold-policy/

@@ -67,5 +67,5 @@
 
 若您對本隱私權政策或個人資料保護有任何疑問、建議或行使權益之請求，歡迎透過以下管道與我們聯繫：
 
-- **電子郵件**：support@vocabgold.com
-- **專案主頁**：https://github.com/vocabgold/vocabgold
+- **線上客服與意見反饋表單**：[點此前往 Google 支援表單](https://forms.gle/f5dMUjLCLQoyg8XR8)
+- **官方政策頁面**：https://andrewlin3281122.github.io/vocabgold-policy/
